@@ -6,7 +6,7 @@ body {
   background-color: #A28CCA;
   color: #fff;
   text-align: center;
-  padding: 3em 0; }
+  padding-top: 3em; }
   #landing nav a {
     color: #FFF;
     text-decoration: none;
@@ -18,7 +18,7 @@ body {
   #landing h1 {
     font-size: 4em;
     margin-top: 2em; }
-  #landing p {
+  #landing p.tagline {
     font-size: 1.3em;
     margin: 1em 0; }
   #landing a.action {
@@ -29,5 +29,25 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     padding: 1em; }
+  #landing .image-container {
+    position: relative; }
+    #landing .image-container img {
+      margin-top: 5em; }
+    #landing .image-container .caption {
+      position: absolute;
+      bottom: 1em;
+      left: 2em;
+      text-align: left; }
+    #landing .image-container .likes {
+      position: absolute;
+      bottom: 1em;
+      right: 1em; }
+    #landing .image-container .edit {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      font-size: 2em;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 0.3em; }
 
 /*# sourceMappingURL=styles.css.map */
