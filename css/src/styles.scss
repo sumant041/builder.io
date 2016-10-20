@@ -1,0 +1,41 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+
+#landing{
+  background-color: #A28CCA;
+  color: #fff;
+  text-align: center;
+  padding: 3em 0;
+
+  nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 1.5em;
+
+    &.active{
+      font-weight: bold;
+      border-bottom: 2px solid #FFF;
+      padding-bottom: 0.5em;
+    }
+  }
+
+  h1{
+     font-size: 4em;
+     margin-top: 2em;
+  }
+  p{
+    font-size: 1.3em;
+    margin: 1em 0;
+  }
+  a.action {
+    background-color: #4BD9DD;
+    color: #FFF;
+    border-radius: 2px;
+    width: 12em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1em;
+  }
+}
