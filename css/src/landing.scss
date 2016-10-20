@@ -1,23 +1,17 @@
-body{
-  font-family: 'Lato', sans-serif;
-  font-family: 'Sintony', sans-serif;
-}
-
-
 #landing{
-  background-color: #A28CCA;
-  color: #fff;
+  background-color: $primary-color;
+  color: $light-font-color;
   text-align: center;
   padding-top: 3em;
 
   nav a {
-    color: #FFF;
+    color: $light-font-color;
     text-decoration: none;
     margin-left: 1.5em;
 
     &.active{
       font-weight: bold;
-      border-bottom: 2px solid #FFF;
+      border-bottom: 2px solid $light-font-color;
       padding-bottom: 0.5em;
     }
   }
@@ -32,12 +26,7 @@ body{
   }
   a.action {
     background-color: #4BD9DD;
-    color: #FFF;
-    border-radius: 2px;
     width: 12em;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1em;
   }
 
   .image-container{
@@ -66,7 +55,7 @@ body{
         right: 1em;
         font-size: 2em;
         background-color: rgba(0,0,0,0.5);
-        padding: 0.3em; 
-     }
+        padding: 0.3em;
+       }
+    }
   }
-}
