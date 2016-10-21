@@ -5,6 +5,7 @@ body{
 }
 
 .btn-solid {
+  background-color: $primary-color;
   color: $light-font-color;
   border-radius: 2px;
   text-transform: uppercase;
@@ -25,6 +26,6 @@ body{
   border: 1px solid $dark-font-color;
 
   &:hover {
-    color: $dark-font-color; 
+    color: $dark-font-color;
   }
 }
