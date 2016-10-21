@@ -9,7 +9,7 @@ body {
   border-radius: 2px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1em; }
+  padding: 1em 3em; }
   .btn-solid:hover {
     color: #FFF; }
 
@@ -18,8 +18,8 @@ body {
   border-radius: 2px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1em;
-  border: 1px solid #BCC3CA; }
+  padding: 1em 3em;
+  border: 2px solid #BCC3CA; }
   .btn-outline:hover {
     color: #BCC3CA; }
 
@@ -70,10 +70,8 @@ body {
   text-align: center;
   padding: 2em 0; }
   #intro .get-started {
-    background-color: #A28CCA;
-    padding: 1em 3em; }
+    background-color: #A28CCA; }
   #intro .try-demo {
-    padding: 1em 3em;
     margin-left: 1em; }
   #intro h2 {
     margin: 2em 0 0.7em; }
@@ -86,5 +84,21 @@ body {
   padding: 5em 0 14em;
   background-repeat: no-repeat;
   background-position: bottom center; }
+
+#take-look {
+  background-color: #A28CCA;
+  text-align: center;
+  padding: 3em 0;
+  color: #FFF; }
+  #take-look h2 {
+    text-transform: uppercase; }
+  #take-look p {
+    margin-bottom: 2em; }
+  #take-look a.take-my-money {
+    background-color: #4BD9DD; }
+  #take-look a.free-account {
+    color: #FFF;
+    border-color: #FFF;
+    margin-left: 1em; }
 
 /*# sourceMappingURL=app.css.map */
