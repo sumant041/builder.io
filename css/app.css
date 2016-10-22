@@ -4,7 +4,7 @@ body {
   color: #BCC3CA; }
 
 .btn-solid {
-  background-color: #A28CCA;
+  background-color: #000000;
   color: #FFF;
   border-radius: 2px;
   text-transform: uppercase;
@@ -24,7 +24,7 @@ body {
     color: #BCC3CA; }
 
 #landing {
-  background-color: #A28CCA;
+  background-color: #000000;
   color: #FFF;
   text-align: center;
   padding-top: 3em; }
@@ -69,8 +69,6 @@ body {
 #intro {
   text-align: center;
   padding: 2em 0; }
-  #intro .get-started {
-    background-color: #A28CCA; }
   #intro .try-demo {
     margin-left: 1em; }
   #intro h2 {
@@ -86,7 +84,7 @@ body {
   background-position: bottom center; }
 
 #take-look {
-  background-color: #A28CCA;
+  background-color: #000000;
   text-align: center;
   padding: 3em 0;
   color: #FFF; }
@@ -119,9 +117,9 @@ body {
   background-color: #F7F7F5; }
   #customization i {
     font-size: 3em;
-    color: #A28CCA; }
+    color: #000000; }
   #customization a {
-    color: #A28CCA;
+    color: #000000;
     font-weight: bold; }
 
 #pricing {
@@ -129,7 +127,7 @@ body {
   padding: 4em 0; }
   #pricing h2 {
     text-transform: uppercase;
-    color: #A28CCA; }
+    color: #000000; }
   #pricing p.caption {
     margin-bottom: 2em;
     font-weight: bold; }
@@ -139,7 +137,7 @@ body {
     height: 44em;
     position: relative; }
     #pricing .price-option h3 {
-      background-color: #A28CCA;
+      background-color: #000000;
       color: #FFF;
       margin: 0;
       padding: 0.6em;
@@ -169,10 +167,10 @@ body {
       left: 2em;
       right: 2em; }
       #pricing .price-option a.signup.btn-outline {
-        color: #A28CCA;
-        border-color: #A28CCA; }
+        color: #000000;
+        border-color: #000000; }
   #pricing .user_count {
-    color: #A28CCA;
+    color: #000000;
     margin-top: 1em;
     font-size: 1.2em; }
     #pricing .user_count span {
@@ -184,14 +182,16 @@ body {
 #mountains img {
   width: 100%; }
 #mountains .take-my-money {
-  background-color: #A28CCA;
+  background-color: #000000;
   padding: 3em 0;
   text-align: center; }
   #mountains .take-my-money a {
     background-color: #4BD9DD; }
+#mountains i {
+  color: #000000; }
 
 footer {
-  border-bottom: 100px solid #d2c7e5;
+  border-bottom: 100px solid #2b2b2b;
   padding: 3em 0; }
   footer a {
     display: block;
@@ -202,6 +202,7 @@ footer {
   footer .snap-container {
     text-align: center; }
     footer .snap-container i {
-      font-size: 3em; }
+      font-size: 3em;
+      color: #000000; }
 
 /*# sourceMappingURL=app.css.map */
