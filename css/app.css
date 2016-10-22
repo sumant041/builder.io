@@ -115,12 +115,70 @@ body {
 
 #customization {
   text-align: center;
-  padding: 5em 0; }
+  padding: 5em 0;
+  background-color: #F7F7F5; }
   #customization i {
     font-size: 3em;
     color: #A28CCA; }
   #customization a {
     color: #A28CCA;
     font-weight: bold; }
+
+#pricing {
+  text-align: center;
+  padding: 4em 0; }
+  #pricing h2 {
+    text-transform: uppercase;
+    color: #A28CCA; }
+  #pricing p.caption {
+    margin-bottom: 2em;
+    font-weight: bold; }
+  #pricing .price-option {
+    border: 1px solid #BCC3CA;
+    border-radius: 10px;
+    height: 44em;
+    position: relative; }
+    #pricing .price-option h3 {
+      background-color: #A28CCA;
+      color: #FFF;
+      margin: 0;
+      padding: 0.6em;
+      text-transform: uppercase;
+      border-radius: 10px 10px 0 0; }
+    #pricing .price-option p.description {
+      font-weight: bold;
+      margin: 2em 3em 1em; }
+    #pricing .price-option p.price {
+      color: #4BD9DD;
+      font-size: 2.7em; }
+      #pricing .price-option p.price span {
+        font-size: 0.5em;
+        color: #BCC3CA;
+        position: relative;
+        top: -0.3em;
+        font-weight: bold; }
+    #pricing .price-option .reason {
+      border-top: 2px solid #eceef0;
+      padding: 1em;
+      margin: 0 2em;
+      font-weight: bold; }
+    #pricing .price-option a.signup {
+      margin: 0 2em;
+      position: absolute;
+      bottom: 2em;
+      left: 2em;
+      right: 2em; }
+      #pricing .price-option a.signup.btn-outline {
+        color: #A28CCA;
+        border-color: #A28CCA; }
+  #pricing .user_count {
+    color: #A28CCA;
+    margin-top: 1em;
+    font-size: 1.2em; }
+    #pricing .user_count span {
+      font-size: 1.28em;
+      font-weight: bold;
+      position: relative;
+      top: 0.1em; }
 
 /*# sourceMappingURL=app.css.map */
