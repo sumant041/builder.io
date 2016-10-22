@@ -1,0 +1,24 @@
+footer {
+  border-bottom: 100px solid lighten($primary-color, 17%);
+  padding:3em 0;
+
+  a {
+    display: block;
+    font-weight: bold;
+    margin: 0.5em 0;
+
+  &,&:hover {
+      color: $dark-font-color;
+    }
+  }
+
+.snap-container {
+
+   text-align: center;
+
+    i {
+      font-size: 3em;
+    }
+
+  }
+}
