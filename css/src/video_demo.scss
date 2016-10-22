@@ -1,0 +1,15 @@
+#video-demo {
+   position: relative;
+
+  img {
+    width: 100%;
+  }
+  i {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    color: $light-font-color;
+    font-size: 8vw;
+    transform: translate(-50% , -50%);
+  }
+}
